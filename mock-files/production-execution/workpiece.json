@@ -1,0 +1,32 @@
+{
+  "type": 0,
+  "name": "mock-workpiece",
+  "data": [],
+  "mesh": {
+    "vertices": [
+      { "x": 0, "y": 0, "z": 0 },
+      { "x": 1200, "y": 0, "z": 0 },
+      { "x": 1200, "y": 100, "z": 0 },
+      { "x": 0, "y": 100, "z": 0 },
+      { "x": 0, "y": 0, "z": 80 },
+      { "x": 1200, "y": 0, "z": 80 },
+      { "x": 1200, "y": 100, "z": 80 },
+      { "x": 0, "y": 100, "z": 80 }
+    ],
+    "faces": [
+      { "vertex_indices": [0, 1, 2] },
+      { "vertex_indices": [0, 2, 3] },
+      { "vertex_indices": [4, 6, 5] },
+      { "vertex_indices": [4, 7, 6] },
+      { "vertex_indices": [0, 4, 5] },
+      { "vertex_indices": [0, 5, 1] }
+    ],
+    "normal": []
+  },
+  "face_data": [],
+  "origin_pose": {
+    "position": { "x": 0, "y": 0, "z": 0 },
+    "orientation": { "x": 0, "y": 0, "z": 0, "w": 1 },
+    "euler": { "x": 0, "y": 0, "z": 0 }
+  }
+}

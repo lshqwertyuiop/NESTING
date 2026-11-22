@@ -1,0 +1,50 @@
+{
+  "process_sequence": {
+    "name": "mock-plan",
+    "mode": 0,
+    "fab_name": "M-001",
+    "fab_type": 0,
+    "arm_name": "mock-arm",
+    "extra_data": [],
+    "process_list": [
+      {
+        "arm_move_line": {
+          "name": "mock-plan-line-1",
+          "waypoint_list": [
+            {
+              "pose": {
+                "position": { "x": 0, "y": 0, "z": 200 },
+                "orientation": { "x": 0, "y": 0, "z": 0, "w": 1 },
+                "euler": { "x": 0, "y": 0, "z": 0 }
+              },
+              "velocity": 2,
+              "external_axis": [],
+              "cnt": 0,
+              "group_index": 0,
+              "speed_unit": 0,
+              "tags": [],
+              "paramters": []
+            },
+            {
+              "pose": {
+                "position": { "x": 300, "y": 0, "z": 200 },
+                "orientation": { "x": 0, "y": 0, "z": 0, "w": 1 },
+                "euler": { "x": 0, "y": 0, "z": 0 }
+              },
+              "velocity": 2,
+              "external_axis": [],
+              "cnt": 0,
+              "group_index": 0,
+              "speed_unit": 0,
+              "tags": [],
+              "paramters": []
+            }
+          ],
+          "tool_cut_length": 0
+        }
+      }
+    ]
+  },
+  "tags": [],
+  "paramters": []
+}
